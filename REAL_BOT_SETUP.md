@@ -13,9 +13,9 @@ Acesse o terminal na pasta do projeto e execute:
 cd rilen-bot-api
 
 # 2. Configure a chave secreta no Cloudflare
-# (Substitua pela sua chave quando o terminal solicitar ou use o comando abaixo)
+# (O terminal solicitará a chave — cole-a sem salvá-la em arquivos do repositório)
 npx wrangler secret put GEMINI_API_KEY
-# [Cole a chave: AIzaSyDLk4l3H3vM2gy9LZ9AuvUZjcAMYSkLBIg]
+# Exemplo de formato (NÃO usar esta chave): AIzaSyD-xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # 3. Faça o deploy da API
 npx wrangler deploy
